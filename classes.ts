@@ -1,3 +1,4 @@
+// Basics of inheritance
 class Vehicle {
     constructor(public color: string) { }
 
