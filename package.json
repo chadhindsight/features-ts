@@ -1,0 +1,23 @@
+{
+  "name": "typescript-features",
+  "version": "1.0.0",
+  "description": "This is a collection of typescript files and examples from Stephen Grider's Typescript course on Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadhindsight/features-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chadhindsight/features-ts/issues"
+  },
+  "homepage": "https://github.com/chadhindsight/features-ts#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
