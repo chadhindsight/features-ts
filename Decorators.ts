@@ -20,7 +20,7 @@ class Boat {
         }
     }
 }
-
+//Boat 
 function classDecorator(constructor: typeof Boat) {
     console.log(constructor);
 }
