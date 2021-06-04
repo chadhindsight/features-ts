@@ -32,7 +32,8 @@ function parameterDecorator(target: any, key: string, index: number) {
 function testDecorator(target: any, key: string) {
     console.log(key);
 }
-// Stuff about errors
+
+// Example of a decorator factory- a normal function that returns a decorator 
 function logError(errorMessage: string) {
     return function (target: any, key: string, desc: PropertyDescriptor): void {
         const method = desc.value;
